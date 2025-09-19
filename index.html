@@ -1546,7 +1546,7 @@
             });
 
             // Enviar para webhook n8n
-            fetch('https://grupoparana-n8n.qkcade.easypanel.host/webhook-test/registro-acidente', {
+            fetch('http://31.97.247.210:8080/webhook-proxy.php', {
                 method: 'POST',
                 body: formData
             })
